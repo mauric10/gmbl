@@ -4,6 +4,13 @@ This program will accept a JSON file and run it through a custom JSON decoder th
 
 # How to use this code
 
+
+## Manually using native Python 3
+
+```bash
+$ python transform.py generated.json output
+```
+
 ## Using `pipenv` if already installed on your system. 
 
 Run the demo: 
@@ -32,12 +39,6 @@ $ make cleanup
 To run tests:
 ```bash
 $ make test
-```
-
-## Manually using native Python 3
-
-```bash
-$ python transform.py generated.json output
 ```
 
 # Answers to follow-up questions
