@@ -11,16 +11,15 @@ This program will accept a JSON file and run it through a custom JSON decoder th
 $ python transform.py generated.json output
 ```
 
-## Using `pipenv` if already installed on your system. 
+## Using `make` commands 
+WARNING: requires installation of `pipenv` with `pip install pipenv`. 
 
 Run the demo: 
 ```bash
 $ make demo
 ```
 
-Or alternatively run each step individually: 
-
-Install dependencies:
+Alternatively run each step individually. Begin by installing the dependencies:
 
 ```bash
 $ make install
