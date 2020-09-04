@@ -6,25 +6,39 @@ This program will accept a JSON file and run it through a custom JSON decoder th
 
 ## Using `pipenv` if already installed on your system. 
 
+Run the demo: 
+```bash
+$ make demo
+```
+
+Or alternatively run each step individually: 
+
 Install dependencies:
 
-`make install`
+```bash
+$ make install
+```
 
 A Makefile is provided for convenience. To run the demo: 
-
-`make run`
+```bash
+$ make run
+```
 
 To cleanup the generated files:
-
-`make cleanup`
+```bash
+$ make cleanup
+```
 
 To run tests:
-
-`make test`
+```bash
+$ make test
+```
 
 ## Manually using native Python 3
 
-`python transform.py generated.json output`
+```bash
+$ python transform.py generated.json output
+```
 
 # Answers to follow-up questions
 
