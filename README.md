@@ -14,30 +14,15 @@ $ python transform.py generated.json output
 ## Using `make` commands 
 WARNING: requires installation of `pipenv` with `pip install pipenv`. 
 
+
 Run the demo: 
 ```bash
 $ make demo
 ```
 
-Alternatively run each step individually. Begin by installing the dependencies:
-
-```bash
-$ make install
-```
-
-A Makefile is provided for convenience. To run the demo: 
-```bash
-$ make run
-```
-
 To cleanup the generated files:
 ```bash
 $ make cleanup
-```
-
-To run tests:
-```bash
-$ make test
 ```
 
 # Answers to follow-up questions
