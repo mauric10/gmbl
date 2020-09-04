@@ -4,6 +4,10 @@ This program will accept a JSON file and run it through a custom JSON decoder th
 
 # How to use this code
 
+Install dependencies:
+
+`make install`
+
 A Makefile is provided for convenience. To run the demo: 
 
 `make run`
