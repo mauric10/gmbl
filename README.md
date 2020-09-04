@@ -10,7 +10,7 @@ This program will accept a JSON file and run it through a custom JSON decoder th
 To run main program:
 
 ```bash
-$ python transform.py generated.json output
+$ python3 transform.py generated.json output
 ```
 
 To run tests:
