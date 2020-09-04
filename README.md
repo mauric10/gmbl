@@ -5,13 +5,23 @@ This program will accept a JSON file and run it through a custom JSON decoder th
 # How to use this code
 
 
-## Manually using native Python 3
+## Option 1: Manually using native Python 3
+
+To run main program:
 
 ```bash
 $ python transform.py generated.json output
 ```
 
-## Using `make` commands 
+To run tests:
+
+
+```bash
+$ pip install -r requirements.txt
+$ pytest -v transform.py
+```
+
+## Option 2: Using `make` commands 
 WARNING: requires installation of `pipenv` with `pip install pipenv`. 
 
 
