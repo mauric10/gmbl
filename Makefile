@@ -16,3 +16,5 @@ run: ## Transform generated JSON file and create output files.
 
 cleanup: ## Delete output files.
 	@rm -v output_*.json
+
+demo: install test run ## Install dependencies, test and run code.

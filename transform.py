@@ -44,11 +44,6 @@ def test_decode_flat_list_of_strs():
     assert custom_decoder(['foo', 'bar']) == ['oof', 'rab']
 
 
-def test_decode_flat_list_of_ints():
-    """Test string doubling on flat list of integers."""
-    assert custom_decoder([1, 2]) == [2, 4]
-
-
 def test_transform():
     """
     Test that transformed JSON matches desired output.
