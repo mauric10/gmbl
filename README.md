@@ -22,7 +22,7 @@ $ pytest -v transform.py
 ```
 
 ## Option 2: Using `make` commands 
-WARNING: requires installation of `pipenv` with `pip install pipenv`. 
+WARNING: requires installation of `pipenv` with `pip install pipenv` or similar. See https://pypi.org/project/pipenv/.
 
 
 Run the demo: 
