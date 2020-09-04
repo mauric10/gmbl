@@ -4,6 +4,8 @@ This program will accept a JSON file and run it through a custom JSON decoder th
 
 # How to use this code
 
+## Using `pipenv` if already installed on your system. 
+
 Install dependencies:
 
 `make install`
@@ -19,6 +21,10 @@ To cleanup the generated files:
 To run tests:
 
 `make test`
+
+## Manually using native Python 3
+
+`python transform.py generated.json output`
 
 # Answers to follow-up questions
 
