@@ -71,8 +71,8 @@ What if, instead of saving to a file, we were to save TBs of these JSON objects 
 
 ### Answer
 
-The architecture described above can be used for writing to MongoDB simply by pointing the output fo the Lambda function to a MongoDB cluster rather than S3. 
-A cluster would allow for distrubuting the load of writing the new files across several nodes. 
+The architecture described above can be used for writing to MongoDB simply by pointing the output of the Lambda function to a MongoDB cluster rather than S3. 
+A cluster would allow for distributing the load of writing the new files across several nodes. 
 We can size the cluster depending on the writes and other access patterns requirements.
 To ensure good software practices and quality data products, I would use a test-driven approach in combination with some form of CI/CD in the steps prior to 
 deployment of our Lambda function. 
