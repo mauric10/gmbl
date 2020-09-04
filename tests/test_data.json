@@ -1,0 +1,45 @@
+{
+  "_id": "5d7184870043aec823ca7d87",
+  "index": 0,
+  "guid": "4d75b41f-ef54-4309-ad70-8a55460b7eeb",
+  "isActive": true,
+  "balance": "$3,887.80",
+  "picture": "http://placehold.it/32x32",
+  "age": 22,
+  "eyeColor": "brown",
+  "name": "Ester Kirby",
+  "gender": "female",
+  "company": "MANUFACT",
+  "email": "esterkirby@manufact.com",
+  "phone": "+1 (960) 471-2516",
+  "address": "423 Nolans Lane, Elwood, Ohio, 3026",
+  "about": "Lorem irure cupidatat ad velit aliqua ...\r\n",
+  "registered": "2017-09-09T10:50:00 +07:00",
+  "latitude": 48.002999,
+  "longitude": 174.07346,
+  "tags": [
+    "veniam",
+    "sit",
+    "commodo",
+    "est",
+    "incididunt",
+    "nostrud",
+    "fugiat"
+  ],
+  "friends": [
+    {
+      "id": 0,
+      "name": "Iva Ratliff"
+    },
+    {
+      "id": 1,
+      "name": "Griffith Glass"
+    },
+    {
+      "id": 2,
+      "name": "Irma Blanchard"
+    }
+  ],
+  "greeting": "Hello, Ester Kirby! You have 10 unread messages.",
+  "favoriteFruit": "apple"
+}
