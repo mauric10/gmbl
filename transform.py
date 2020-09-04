@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 """
+This module contains the main function for doubling integers and
+reversing strings. Includes tests and utilities.
 """
 
 import sys
